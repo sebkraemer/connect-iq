@@ -1,0 +1,19 @@
+# Allowlist: this public repo only holds docs and images.
+# Never source code, FIT files, builds or keys.
+*
+!*/
+!.gitignore
+!*.md
+!*.png
+!*.jpg
+!*.svg
+!_config.yml
+!.github/**
+
+# Belt and braces: even if allowed above, never these.
+*.fit
+*.FIT
+*.prg
+*.iq
+*.der
+*.pem
