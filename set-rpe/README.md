@@ -4,6 +4,11 @@ Rate how hard each set felt (RPE 1–10, the same scale as the watch's own ratin
 
 > Status: in development, not yet in the Connect IQ Store.
 
+<p>
+  <img src="screenshots/editor-saved.png" alt="Editor: pick a value with + and −, the saved value is shown on the right" width="220">
+  <img src="screenshots/done.png" alt="Saved: the value is shown in green, tap to change" width="220">
+</p>
+
 ## Setup
 Add Set RPE to the Strength activity on its own data screen, as the only field (full screen). Tested on the Venu 3; the Venu 3S is supported but not tested on a device.
 
@@ -14,6 +19,12 @@ Add Set RPE to the Strength activity on its own data screen, as the only field (
 - Rate during the set or in the rest after it. A value given in the rest replaces the one from the set.
 - An **orange ring** around the edge means you are in a rest. No ring: a set, or the warm-up.
 - The watch's own reps/weight screen after a set still works as usual; swipe back to Set RPE to rate.
+
+<p>
+  <img src="screenshots/editor-empty.png" alt="A new set starts without a value" width="160">
+  <img src="screenshots/editor-rest.png" alt="In a rest (orange ring): changing the value of the set before" width="160">
+  <img src="screenshots/done-rest.png" alt="Saved value during a rest" width="160">
+</p>
 
 ## Which set does a value belong to?
 - To the set you are in, or – during a rest – to the set **right before** that rest.
