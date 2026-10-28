@@ -10,7 +10,9 @@ Rate how hard each set felt (RPE 1–10, the same scale as the watch's own ratin
 </p>
 
 ## Setup
-Add Set RPE to the Strength activity on its own data screen, as the only field (full screen). Tested on the Venu 3; the Venu 3S is supported but not tested on a device.
+Add Set RPE to the Strength activity on its own data screen, as the only field (full screen). On a screen with several fields it only shows the saved value and doesn't react to taps. Set RPE is only offered for the Strength activity. Tested on the Venu 3; the Venu 3S is supported but not tested on a device.
+
+Languages: English, German, Finnish, Swedish, Danish.
 
 ## Rating a set
 - Use **+ / −** to pick the value. It starts at your last value, because consecutive sets are usually rated similarly, and stops at 1 and 10.
@@ -33,10 +35,11 @@ Add Set RPE to the Strength activity on its own data screen, as the only field (
 
 ## What it can't do
 - It can't end a set or a rest; that stays with the watch's button.
+- It doesn't vibrate when saving, like the watch's own reps/weight screen; the screen change is the confirmation.
 - It only works in the Strength activity.
 
 ## Where the data goes
-The values are stored in the activity file on the watch, which the watch syncs to your own Garmin Connect account like the rest of the activity. Garmin Connect shows them as a chart. Nothing is sent to the developer. See the [privacy page](privacy.md).
+The values are stored in the activity file on the watch, which the watch syncs to your own Garmin Connect account like the rest of the activity. Garmin Connect shows them as a chart ("RPE per set"). Nothing is sent to the developer. See the [privacy page](privacy.md).
 
 ## For developers: reading the values from the FIT file
 Set RPE writes two [developer fields](https://developer.garmin.com/fit/cookbook/developer-data/) into every `record` message of the activity:
