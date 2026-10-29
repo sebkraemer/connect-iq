@@ -10,7 +10,9 @@ Rate how hard each set felt (RPE 1–10, the same scale as the watch's own ratin
 </p>
 
 ## Setup
-Add Set RPE to the Strength activity on its own data screen, as the only field (full screen). On a screen with several fields it only shows the saved value and doesn't react to taps. Set RPE is only offered for the Strength activity. Tested on the Venu 3; the Venu 3S is supported but not tested on a device.
+> **Rating needs the field on its own data screen (full screen).** On a screen with several fields it shows the saved value but deliberately ignores taps, so nothing is changed by accident.
+
+Add Set RPE to the Strength activity on its own data screen, as the only field. Set RPE is only offered for the Strength activity. Tested on the Venu 3; the Venu 3S is supported but not tested on a device.
 
 Languages: English, German, Finnish, Swedish, Danish.
 
